@@ -32,3 +32,8 @@ Ela extrai os arquivos executáveis individuais em tempo de execução e os exec
    ```bash
    git clone https://github.com/ImNotKurtz/MultiExe
    cd multiexe
+
+## Authors
+
+- [@Kurtz](https://github.com/ImNotKurtz)
+
