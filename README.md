@@ -22,7 +22,7 @@ Ela extrai os arquivos executáveis individuais em tempo de execução e os exec
 
 - Python 3.x
 - PyInstaller
-- UPX (opcional, para compactar o arquivo final caso seja muito grande)
+- [UPX](https://github.com/upx/upx/releases/). (opcional, para compactar o arquivo final caso seja muito grande)
 
 ## Como Usar
 
