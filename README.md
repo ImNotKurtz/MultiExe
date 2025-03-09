@@ -32,8 +32,10 @@ Ela extrai os arquivos executáveis individuais em tempo de execução e os exec
    ```bash
    git clone https://github.com/ImNotKurtz/MultiExe
    cd multiexe
+2. Execute o script
+   ```bash
+   python builder.py
 
 ## Authors
-
 - [@Kurtz](https://github.com/ImNotKurtz)
 
