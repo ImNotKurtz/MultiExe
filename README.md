@@ -30,5 +30,5 @@ Ela extrai os arquivos executáveis individuais em tempo de execução e os exec
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/multiexe.git
+   git clone https://github.com/ImNotKurtz/MultiExe
    cd multiexe
