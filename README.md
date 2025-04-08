@@ -18,7 +18,6 @@
 
 ![MultiExe Image](https://media.discordapp.net/attachments/1359212742489149494/1359236286166208682/image.png?ex=67f6bef0&is=67f56d70&hm=1ec4a8cb3cd4536cccf8aefc602c75b7afcd40d3baf585dbb5437fc5e575e6ae&=&format=webp&quality=lossless&width=1654&height=827)
 
-*Add the image to your repository directory and use the correct path to display it.*
 
 ## Installation
 
