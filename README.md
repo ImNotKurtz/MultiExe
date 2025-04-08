@@ -1,41 +1,58 @@
 # MultiExe
 
-**MultiExe** é uma ferramenta em Python que permite agrupar vários arquivos `.exe` em um único executável, facilitando a distribuição e execução de múltiplos aplicativos como um único pacote. 
+**MultiExe** is a Python tool that allows you to bundle multiple `.exe` files into a single executable. This makes it easier to distribute and run multiple applications as one package. MultiExe extracts and runs the files in a temporary directory at runtime, making the process more efficient and straightforward.
 
-Ela extrai os arquivos executáveis individuais em tempo de execução e os executa em um ambiente temporário, criando um arquivo único autossuficiente.
+## Features
 
-## Funcionalidades
+- Bundle multiple executables into a single file.
+- Extract and execute files at runtime.
+- Uses PyInstaller and optionally UPX for compression.
 
-- Combina múltiplos arquivos `.exe` em um único arquivo executável.
-- Extração e execução dos arquivos em tempo de execução, sem precisar de instalação adicional.
-- Limpeza de arquivos temporários, como `.crdownload`, após a execução.
-- Criação de executável sem interface de console (modo "noconsole").
-- Caso o arquivo final seja grande, usa **UPX** (Ultimate Packer for eXecutables) para compactação.
+## Technologies Used
 
-## Como Funciona
+- **Python**: Main programming language.
+- **PyInstaller**: For building the executables.
+- **UPX** (optional): For executable compression.
 
-1. Coloque seus arquivos `.exe` na pasta `executaveis`.
-2. Execute o script para gerar o arquivo `.exe` final.
-3. O arquivo gerado vai extrair e executar os arquivos `.exe` em tempo real.
+## Project Image
 
-## Requisitos
+![MultiExe Image]([path/to/image.png](https://media.discordapp.net/attachments/1359212742489149494/1359236286166208682/image.png?ex=67f6bef0&is=67f56d70&hm=1ec4a8cb3cd4536cccf8aefc602c75b7afcd40d3baf585dbb5437fc5e575e6ae&=&format=webp&quality=lossless&width=1654&height=827))
 
-- Python 3.x
-- PyInstaller
-- [UPX](https://github.com/upx/upx/releases/). (opcional, para compactar o arquivo final caso seja muito grande)
+*Add the image to your repository directory and use the correct path to display it.*
 
-## Como Usar
+## Installation
 
-### Instalar as dependências:
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/ImNotKurtz/MultiExe.git
+    ```
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/ImNotKurtz/MultiExe
-   cd multiexe
-2. Execute o script
-   ```bash
-   python builder.py
+2. Navigate to the project directory:
+    ```bash
+    cd MultiExe
+    ```
 
-## Authors
-- [@Kurtz](https://github.com/ImNotKurtz)
+3. Install the dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
+4. Build the executable:
+    ```bash
+    python multi_exe.py
+    ```
+
+## Contribution
+
+Feel free to contribute! If you'd like to contribute, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature:
+    ```bash
+    git checkout -b my-feature
+    ```
+3. Make your changes and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
